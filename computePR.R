@@ -65,3 +65,11 @@ rownames(urls_pagerank) <- NULL
 
 urls_pagerank <- mutate(urls_pagerank, internal.pagerank = map(raw.internal.pagerank, c(1,10)))
 
+
+
+#install.packages("GGally")
+#library(GGally)
+#library(network)
+
+#ggnet2(graphObject, color = "party",  alpha = 0.75, size = 4, edge.alpha = 0.5)
+
